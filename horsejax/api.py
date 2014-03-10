@@ -15,7 +15,7 @@ class horsejaxAPI(object):
             """
             Generate a password with Glyph's horsephrase.
             """
-            length = params.get("length", 4)
+            length = int(params.get("length", 4))
             return {"password": horsephrase.generate(length)}
 
 

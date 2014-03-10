@@ -17,7 +17,7 @@
                 {
                     "versions": [1],
                     "paramsType": "url",
-                    "optionalRequestParams": [
+                    "optionalParams": [
                         {
                             "param": "length",
                             "description": "How many words make up the password."

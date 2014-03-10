@@ -23,7 +23,7 @@ else:
 
 setup(
     name="horsejax",
-    version="0.1",
+    version="0.1.2",
     description="Secure password generator via not so secure JSON.",
     long_description=(
         "Like http://correcthorsebatterystaple.net/ except it is a HTTP API"
