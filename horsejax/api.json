@@ -1,0 +1,38 @@
+{
+
+    "metadata": {
+        "name": "horsejax",
+        "friendlyName": "Web 3.7 JSON AJAX API for horsephrase",
+        "versions": [1],
+        "apiInfo": true
+    },
+
+    "api": [
+        {
+            "name": "generate",
+            "friendlyName": "Generate",
+            "description": "Generate a password.",
+            "endpoint": "generate",
+            "getProcessors": [
+                {
+                    "versions": [1],
+                    "paramsType": "url",
+                    "optionalRequestParams": [
+                        {
+                            "param": "length",
+                            "description": "How many words make up the password."
+                        }
+                    ],
+                    "returnParams": [
+                        {
+                            "param": "password",
+                            "description": "The generated password.",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+
+}
